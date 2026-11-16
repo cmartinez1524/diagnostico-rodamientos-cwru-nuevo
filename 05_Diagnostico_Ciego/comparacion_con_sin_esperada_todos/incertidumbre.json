@@ -1,0 +1,109 @@
+{
+  "semilla": 2026,
+  "repeticiones": 10000,
+  "sin_esperada": {
+    "n": 105,
+    "condiciones": 28,
+    "mejoran": 15,
+    "empeoran": 7,
+    "tipo_incorrecto": 10,
+    "sin_retroceso": 88,
+    "tasa": 0.8380952380952381,
+    "ic95_wilson": [
+      0.755937832299668,
+      0.8963871248422018
+    ],
+    "ic95_bootstrap_condicion": [
+      0.7570030310684516,
+      0.912621359223301
+    ],
+    "p_signos_mejora_vs_empeora": 0.13380050659179688,
+    "p_signos_mejora_vs_empeora_o_tipo_mal": 0.860050065908581,
+    "neto_estricto": -2,
+    "neto_estricto_ic95_bootstrap": [
+      -12.638888888888888,
+      10.294117647058824
+    ],
+    "sin_nd_del_paper": {
+      "k": 74,
+      "n": 87,
+      "tasa": 0.8505747126436781,
+      "ic95_wilson": [
+        0.7609539957959605,
+        0.910545567852722
+      ]
+    }
+  },
+  "oraculo": {
+    "n": 105,
+    "condiciones": 28,
+    "mejoran": 21,
+    "empeoran": 10,
+    "tipo_incorrecto": 0,
+    "sin_retroceso": 95,
+    "tasa": 0.9047619047619048,
+    "ic95_wilson": [
+      0.8335087230997968,
+      0.9474436903799064
+    ],
+    "ic95_bootstrap_condicion": [
+      0.8411214953271028,
+      0.9607843137254902
+    ],
+    "p_signos_mejora_vs_empeora": 0.07075554598122835,
+    "p_signos_mejora_vs_empeora_o_tipo_mal": 0.07075554598122835,
+    "neto_estricto": 11,
+    "neto_estricto_ic95_bootstrap": [
+      -2.838482800982801,
+      26.745283018867923
+    ],
+    "sin_nd_del_paper": {
+      "k": 77,
+      "n": 87,
+      "tasa": 0.8850574712643678,
+      "ic95_wilson": [
+        0.8011941787191399,
+        0.9363545223376097
+      ]
+    }
+  },
+  "oraculo_vs_ciego": {
+    "solo_oraculo_ok": 7,
+    "solo_ciego_ok": 0,
+    "p_mcnemar_exacto": 0.015625
+  },
+  "tipo_12k_por_protocolo": {
+    "desarrollo_oof_reutilizado": {
+      "k": 42,
+      "n": 52,
+      "ic95_wilson": [
+        0.6810113907462519,
+        0.8920395402479301
+      ]
+    },
+    "modelo_congelado": {
+      "k": 53,
+      "n": 53,
+      "ic95_wilson": [
+        0.9324180104293549,
+        1.0
+      ]
+    }
+  },
+  "tipo_48k": {
+    "k": 21,
+    "n": 24,
+    "ic95_wilson": [
+      0.6899611855484453,
+      0.9565566595380588
+    ]
+  },
+  "normales": {
+    "k": 4,
+    "n": 4,
+    "ic95_wilson": [
+      0.5101091596030786,
+      0.9999999999999999
+    ]
+  }
+}
