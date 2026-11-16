@@ -1,0 +1,394 @@
+{
+  "repo_vigente": {
+    "tipo_correcto": 95,
+    "mejoran": 15,
+    "iguales": 73,
+    "empeoran": 7,
+    "tipo_incorrecto": 10,
+    "sin_retroceso": 88,
+    "total": 105,
+    "ic95_sin_retroceso_por_condicion": [
+      0.7570030310684516,
+      0.912621359223301
+    ],
+    "ic95_tipo_por_condicion": [
+      0.8285714285714286,
+      0.96875
+    ]
+  },
+  "repo_nuevo": {
+    "tipo_correcto": 96,
+    "mejoran": 15,
+    "iguales": 73,
+    "empeoran": 8,
+    "tipo_incorrecto": 9,
+    "sin_retroceso": 88,
+    "total": 105,
+    "ic95_sin_retroceso_por_condicion": [
+      0.7523787680209698,
+      0.9150943396226415
+    ],
+    "ic95_tipo_por_condicion": [
+      0.8349514563106796,
+      0.9732142857142857
+    ]
+  },
+  "loco_vigente": {
+    "tipo_correcto": 87,
+    "mejoran": 10,
+    "iguales": 69,
+    "empeoran": 8,
+    "tipo_incorrecto": 18,
+    "sin_retroceso": 79,
+    "total": 105,
+    "ic95_sin_retroceso_por_condicion": [
+      0.6226415094339622,
+      0.8679245283018868
+    ],
+    "ic95_tipo_por_condicion": [
+      0.6944444444444444,
+      0.9357798165137615
+    ]
+  },
+  "loco_nuevo": {
+    "tipo_correcto": 92,
+    "mejoran": 10,
+    "iguales": 73,
+    "empeoran": 9,
+    "tipo_incorrecto": 13,
+    "sin_retroceso": 83,
+    "total": 105,
+    "ic95_sin_retroceso_por_condicion": [
+      0.6605504587155964,
+      0.9017857142857143
+    ],
+    "ic95_tipo_por_condicion": [
+      0.7522935779816514,
+      0.98
+    ]
+  },
+  "loco_anidado": {
+    "tipo_correcto": 92,
+    "mejoran": 10,
+    "iguales": 73,
+    "empeoran": 9,
+    "tipo_incorrecto": 13,
+    "sin_retroceso": 83,
+    "total": 105,
+    "ic95_sin_retroceso_por_condicion": [
+      0.6605504587155964,
+      0.9029126213592233
+    ],
+    "ic95_tipo_por_condicion": [
+      0.75,
+      0.972972972972973
+    ]
+  },
+  "techo_tipo_perfecto": {
+    "tipo_correcto": 105,
+    "mejoran": 21,
+    "iguales": 74,
+    "empeoran": 10,
+    "tipo_incorrecto": 0,
+    "sin_retroceso": 95,
+    "total": 105
+  },
+  "pareadas": {
+    "loco_sin_retroceso": {
+      "solo_referencia": 4,
+      "solo_nuevo": 8,
+      "p_mcnemar_exacto": 0.3876953125
+    },
+    "loco_tipo": {
+      "solo_referencia": 4,
+      "solo_nuevo": 9,
+      "p_mcnemar_exacto": 0.266845703125
+    },
+    "repo_sin_retroceso": {
+      "solo_referencia": 1,
+      "solo_nuevo": 1,
+      "p_mcnemar_exacto": 1.0
+    },
+    "repo_tipo": {
+      "solo_referencia": 1,
+      "solo_nuevo": 2,
+      "p_mcnemar_exacto": 1.0
+    }
+  },
+  "anidado_recetas": {
+    "12k_DE/B007": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 82,
+        "peine": 87,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_DE/B014": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 83,
+        "peine": 82,
+        "arbol+peine": 87
+      },
+      "de": 101
+    },
+    "12k_DE/B021": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 79,
+        "peine": 84,
+        "arbol+peine": 90
+      },
+      "de": 101
+    },
+    "12k_DE/B028": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 83,
+        "peine": 82,
+        "arbol+peine": 87
+      },
+      "de": 101
+    },
+    "12k_DE/IR007": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 83,
+        "peine": 82,
+        "arbol+peine": 87
+      },
+      "de": 101
+    },
+    "12k_DE/IR014": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 84,
+        "peine": 83,
+        "arbol+peine": 86
+      },
+      "de": 101
+    },
+    "12k_DE/IR021": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 81,
+        "peine": 82,
+        "arbol+peine": 86
+      },
+      "de": 101
+    },
+    "12k_DE/IR028": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 86,
+        "peine": 87,
+        "arbol+peine": 91
+      },
+      "de": 101
+    },
+    "12k_DE/OR007@12": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 85,
+        "peine": 86,
+        "arbol+peine": 89
+      },
+      "de": 101
+    },
+    "12k_DE/OR007@3": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 85,
+        "peine": 81,
+        "arbol+peine": 89
+      },
+      "de": 101
+    },
+    "12k_DE/OR007@6": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 85,
+        "peine": 83,
+        "arbol+peine": 89
+      },
+      "de": 101
+    },
+    "12k_DE/OR014@6": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 84,
+        "peine": 89,
+        "arbol+peine": 90
+      },
+      "de": 101
+    },
+    "12k_DE/OR021@12": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 87,
+        "peine": 84,
+        "arbol+peine": 89
+      },
+      "de": 101
+    },
+    "12k_DE/OR021@3": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 84,
+        "peine": 83,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_DE/OR021@6": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 81,
+        "peine": 85,
+        "arbol+peine": 89
+      },
+      "de": 101
+    },
+    "12k_FE/B007": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 82,
+        "peine": 84,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_FE/B014": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 80,
+        "peine": 83,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_FE/B021": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 82,
+        "peine": 84,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_FE/IR007": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 87,
+        "peine": 85,
+        "arbol+peine": 89
+      },
+      "de": 101
+    },
+    "12k_FE/IR014": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 80,
+        "peine": 83,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_FE/IR021": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 83,
+        "peine": 82,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_FE/OR007@12": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 85,
+        "peine": 85,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_FE/OR007@3": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 85,
+        "peine": 84,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_FE/OR007@6": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 84,
+        "peine": 83,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_FE/OR014@3": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 87,
+        "peine": 84,
+        "arbol+peine": 88
+      },
+      "de": 101
+    },
+    "12k_FE/OR014@6": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 86,
+        "peine": 86,
+        "arbol+peine": 91
+      },
+      "de": 104
+    },
+    "12k_FE/OR021@3": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 85,
+        "peine": 85,
+        "arbol+peine": 90
+      },
+      "de": 102
+    },
+    "12k_FE/OR021@6": {
+      "receta": "arbol+peine",
+      "aciertos_internos": {
+        "arbol": 88,
+        "peine": 86,
+        "arbol+peine": 91
+      },
+      "de": 104
+    }
+  },
+  "48k_con_falla": {
+    "tipo_correcto": 21,
+    "total": 24,
+    "sin_diagnostico": 1
+  },
+  "normales": {
+    "correctos": 4,
+    "total": 4,
+    "nota": "detector sano/falla del proyecto, sin cambios"
+  },
+  "protocolo": {
+    "semilla": 2026,
+    "repeticiones": 10000,
+    "condiciones": 28,
+    "firmas": {
+      "peine.py": "6fadecaa1be9141c985b25b0def26ead26a5e62e21ddf9a5c25e394c91c20d54",
+      "clasificador.py": "625a08e03623331584c4235ea7e43cbd63223c39a91f21b7b7d7723fd1875107"
+    },
+    "receta_nueva": "LDA(arbol, 9 ventanas de la primera mitad) + LDA(peine, 93 rasgos); puntajes tipificados y sumados",
+    "sin_cambios": "banda (bandas_estables), regla de grado (criterio_usuario), detector sano/falla (resultados_por_dominio)",
+    "validacion_externa": false
+  }
+}

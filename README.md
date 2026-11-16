@@ -34,6 +34,27 @@ todavía no se alcanza.
 
 Resultados por registro: [comparacion_133.csv](05_Diagnostico_Ciego/comparacion_con_sin_esperada_todos/comparacion_133.csv).
 
+### Validación estricta y clasificador de tipo con rasgos de peine
+
+El 88/105 anterior mezcla dos protocolos: 52 registros se predicen sin haber visto
+su condición y 53 con un modelo que ya vio otras cargas de la misma falla. Al excluir
+siempre la condición completa en los 105 registros, la misma receta baja a 79/105.
+[`06_Tipo_Ciego_Peine`](06_Tipo_Ciego_Peine/README.md) agrega rasgos de peine con
+deslizamiento al clasificador de tipo, sin cambiar la banda ni la regla de grado:
+
+| Protocolo | Receta | Tipo correcto | Sin retroceso |
+| --- | --- | ---: | ---: |
+| Del proyecto (desarrollo fuera de grupo + congelado) | vigente | 95/105 | 88/105 |
+| | con peine | 96/105 | 88/105 |
+| Estricto (condición excluida en los 105) | vigente | 87/105 | 79/105 |
+| | con peine | 92/105 | 83/105 |
+
+La mejora en validación estricta no es estadísticamente concluyente (McNemar exacto,
+p = 0,39) y la meta de 90/105 sigue sin alcanzarse. Con el tipo perfecto y la regla
+de grado actual el techo es 95/105. Los intervalos de la comparación con y sin
+frecuencia esperada están en
+[incertidumbre.md](05_Diagnostico_Ciego/comparacion_con_sin_esperada_todos/incertidumbre.md).
+
 ## Instalación
 
 Python 3.11 o posterior; el entorno original usa Python 3.13.
@@ -105,6 +126,7 @@ los modelos y los manifiestos correspondientes.
 | `03_Comparacion_Kurtogram_vs_Sinergia` | Comparación histórica de métodos |
 | `04_Comparacion_Kurtogram_vs_Entropia` | Entropía, filtros, doble banda y estabilidad |
 | `05_Diagnostico_Ciego` | Inferencia sin frecuencia esperada, experimentos y auditorías |
+| `06_Tipo_Ciego_Peine` | Clasificador de tipo con rasgos de peine y validación estricta por condición |
 
 Se conservan resultados y pesos históricos para trazabilidad; no todos son
 entradas vigentes. Algunos pesos anteriores están invalidados por las correcciones
